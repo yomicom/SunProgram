@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:wan_program/common/Api.dart';
 import 'package:wan_program/common/color.dart';
 import 'package:wan_program/pages/PictureListPage.dart';
-import 'package:flutter/services.dart';
 
 /***
  * 图库首页
@@ -45,6 +44,7 @@ class MyPicturePageState extends State<MyPicturePage>
               indicatorSize: TabBarIndicatorSize.tab,
               labelStyle: new TextStyle(fontSize: 15.0),
             ),
+
             body: new TabBarView(
               controller: _tabController,
               children: titleList.map((ImgType itemData) {
