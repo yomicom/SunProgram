@@ -55,9 +55,9 @@ class ArticleItemState extends State<ArticleItem> {
             new Column(
               children: <Widget>[
                 new Container(
-                  height: 65.0,
+                  height: 62.0,
                   padding: EdgeInsets.fromLTRB(
-                      15.0, 15.0, widget.haveImg ? 78.0 : 15.0, 10.0),
+                      15.0, 15.0, widget.haveImg ? 75.0 : 15.0, 10.0),
                   child: new Row(
                     children: <Widget>[
                       new Expanded(
@@ -154,8 +154,8 @@ class ArticleItemState extends State<ArticleItem> {
                     child: new FadeInImage.assetNetwork(
                       image: articleData['cdn_url'],
                       placeholder: "images/article_default.png",
-                      height: 63.0,
-                      width: 63.0,
+                      height: 60.0,
+                      width: 60.0,
                       fit: BoxFit.fill,
                     ),
                   )

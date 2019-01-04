@@ -114,20 +114,23 @@ class _MyHomePageState extends State<MyHomePage> {
 //    return new WillPopScope(
     return Scaffold(
       key: _globalKey,
-      appBar: AppBar(
-        title: Text(
-          tabTitles[_tabIndex],
-          style: new TextStyle(color: Colors.white),
-        ),
-        iconTheme: new IconThemeData(color: Colors.white),
-        actions: <Widget>[
+      appBar:PreferredSize(
+        child: AppBar(
+          title: Text(
+            tabTitles[_tabIndex],
+            style: new TextStyle(color: Colors.white),
+          ),
+          iconTheme: new IconThemeData(color: Colors.white),
+          actions: <Widget>[
 //          new IconButton(
 //              icon: new Icon(
 //                Icons.search,
 //                color: Colors.white,
 //              ),
 //              onPressed: null)
-        ],
+          ],
+        ),
+        preferredSize: Size.fromHeight(50.0),
       ),
       body: _body,
       bottomNavigationBar: new BottomNavigationBar(

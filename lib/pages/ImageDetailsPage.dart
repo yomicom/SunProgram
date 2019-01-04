@@ -67,7 +67,7 @@ class ImageDetialsPageState extends State<ImageDetialsPage> {
               margin: EdgeInsets.only(bottom: 15.0),
               child: new Text(
                 data['add_intro'],
-                style: TextStyle(fontSize: 17.0, color: Color(0xDDD0D0D0)),
+                style: TextStyle(fontSize: 16.0, color: Color(0xDDD0D0D0)),
               ), //
             ),
           ],

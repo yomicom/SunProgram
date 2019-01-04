@@ -16,6 +16,8 @@ class Api {
   //公众号作者列表
   static const String AUTHOR_LIST = "wxarticle/chapters/json";
 
+  static final String HOME_BANNER = "http://www.wanandroid.com/banner/json";
+
   static final String MP_WECHAT_LIST = "http://wanandroid.com/wxarticle/list/";
 
   //搜索
